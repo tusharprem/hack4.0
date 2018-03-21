@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Udaipur Tourism</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <!-- Bootstrap
+    ------------------------------>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ 
+    <!-- CSS
+    ----------------------------->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="chatbot-screen">
+        <div class="container">
+           <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-10">
+                            <h3>Chatbot</h3>
+                        </div>
+                        <div class="col-2">
+                            <a href="#" class="close">&times;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                
+            </div>
+        </div>
+    </div>
+    <a href="#" class="chatbot">
+        <div class="chat-icon"></div>
+    </a>
+
+    <script>
+        $(document).ready(function() {
+            $(".chatbot").click(function() {
+                $(".chatbot-screen").slideDown(300);
+            });
+
+            $(".close").click(function() {
+                $(".chatbot-screen").slideUp(300);
+            });
+        });
+    </script>
+
+    <nav class="navbar navbar-expand-lg align-items-center justify-content-center">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src='images/logo.jpeg' style="width:40px; height:40px; float:left;" />
+                <h1>Lets Go</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://en.wikipedia.org/wiki/Udaipur">About Udaipur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.udaipurblog.com/category/news">Udaipur News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.udaipurblog.com/category/places-to-visit">Places to Visit</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="#">Market Place</a>
+                    </li>-->
+                    <li class="nav-item">
+                        <!--<div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Language
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">English</a>
+                                <a class="dropdown-item" href="#">Hindi</a>
+                            </div>-->
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 c-image" src="./images/1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 c-image" src="./images/2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 c-image" src="./images/3.png" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 card" style="background-color:#C2DFFF; border:none;">
+                <!--<a href="#">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h4 class="card-title">Need Guide</h4>
+                            </div>
+                            <div class="col-4">
+                                <img src="./images/p-suggest.png" class="s-icon">
+                            </div>
+                        </div>
+                    </div>
+                </a>-->
+            </div>
+            <div class="col-md-3 card">
+                <a href="#">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h4 class="card-title">Need Guide</h4>
+                            </div>
+                            <div class="col-4">
+                                <img src="./images/guide.jpg" class="s-icon">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 card">
+                <a href="https://www.tripadvisor.in/SmartDeals-g297672-Udaipur_Udaipur_District_Rajasthan-Hotel-Deals.html">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h4 class="card-title">Need Hotel</h4>
+                            </div>
+                            <div class="col-4">
+                                <img src="./images/hotel.png" class="s-icon">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!--<div class="col-md-3 card">
+                <a href="#">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h4 class="card-title">Market Price</h4>
+                            </div>
+                            <div class="col-4">
+                                <img src="./images/market.png" class="s-icon">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>-->
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-8">
+                <h3>THE CITY OF LAKES AND PALACES</h3>
+                <p>
+                    Often referred to as the 'Venice of the East', the city of lakes Udaipur is located around azure water lakes and is hemmed in by lush green hills of Aravallis. The famous Lake Palace, located in the middle of Lake Pichola is one of the most beautiful sights of Udaipur. It is also home to Jaisamand Lake, claimed to be the second largest man-made sweet water lake in Asia. The beautiful City Palace and Sajjangarh (Monsoon Palace) add to the architectural beauty and grandeur of the city. The city is also known for its profusion of zinc and marble. Solar observatory in Lake Fateh Sagar is the only observatory in India located on an island and has been made on the pattern of  Big Bear Lake in Southern California. The ten-day Shilpgram Festival which starts from 21 Dec to 30 Dec pulls in a large number of people interested in arts and crafts.
+                </p>
+                <p>
+                    Udaipur was founded in 1553 by Maharana Udai Singh II as the new capital of Mewar Kingdom. It is located in the fertile, circular Girwa Valley to the southwest of Nagda, which was the first capital of Mewar.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>ATTRACTIONS & PLACES TO VISIT</h3>
+                <ul>
+                    <li title='The City Palace towers over Lake Pichola. The balconies, cupolas, and towers of the palace give a wonderful view of the lake and the surrounding city. This complex actually consists of four major and several minor palaces that collectively form the magnificent City Palace. The main part of the palace is now preserved as a museum displaying artifacts.'>Udaipur City Palace</li>
+                    <li title='Now a hotel but was originally called Jagniwas and served as a summer palace. Built between 1743 and 1746 on the island near Jagmandir in Lake Pichola, the palace, which faces east, is a wondrous sight to behold. The walls made of black and white marbles are adorned with semi-precious stones and ornamented niches. Gardens, fountains, pillared terraces, and columns line its courtyards.'>Lake Palace</li>
+                    <li title='Jagmandir is a palace built on an island on the Lake Pichola. Also called the ‘Lake Garden Palace’, the construction for this began in 1620 and was completed around 1652. The royal family used the palace as its summer resort and for hosting parties. Interestingly, Prince Khurram - later Emperor Shah Jahan - was given shelter here when he rebelled against his father Emperor Jahangir. The Palace had such an impact on Emperor Shah Jahan that it went on to become the inspiration for one of the most magnificent Wonders of the World, The Taj Mahal.'>Jag Mandir</li>
+                    <li title="Situated just outside Udaipur, this 19th-century palace is built on top of Bansdara hills. Used as a monsoon palace and hunting lodge, its builder, Maharana Sajjan Singh, originally planned to make it an astronomical center. The plan was cancelled with Maharana Sajjan Singh's premature death. It is still an awe-inspiring sight on the Udaipur skyline and offers spectacular views of the city and the areas around.">Monsoon Palace</li>
+                    <li title="Ahar Museum is in close proximity to an impressive cluster of cenotaphs of the Maharanas of Mewar. The museum has a small, but rare collection of earthen pottery. You can also browse through sculptures and archaeological finds, a few dating back to 1700 BC. A 10th century metal figure of Buddha is a special attraction here.">Ahar Museum</li>
+                    <li title="An example of the Indo-Aryan style of architecture, Jagdish Temple was built in 1651 and continues to be one of the most famous temples in and around Udaipur. Dedicated to Lord Vishnu, the structure is an architectural marvel with carved pillars, graceful ceilings and painted walls. This three-storied temple was built by Maharana Jagat Singh I.">Jagdish Mandir</li>
+                    <li title="This delightful lake, bordered by hills and woodlands, lies to the north of Lake Pichola. This artificial lake is connected to Lake Pichola by a canal. The lake houses the beautiful Nehru Island as well as an islet on which stands the Udaipur Solar Observatory. It was inaugurated by the Duke of Connaught and was initially called Connaught Bundh.">Fateh Sagar Lake</li>
+                    <li title="Picholi was the name of a village that lent its name to the lake. The islands of Jagniwas and Jagmandir are housed in this lake. Along the eastern banks of the lake lies the City Palace. A boat ride in the lake around sunset offers a breathtaking view of the Lake and City Palace.">Lake Pichola</li>
+                    <li title="Built by Maharana Sangram Singh II as a garden for women, Saheliyon-ki-Bari or the Garden of the Maidens is a popular tourist destination. Along with a small museum, it has several attractions such as marble elephants, fountains, kiosks and a lotus pool.">Saheliyon Ki Badi</li>
+                    <li title="Gulab Bagh (Sajjan Niwas Garden) is the largest garden in Udaipur. Spread over 100 acres, the garden proudly displays innumerable species of roses, from which it also gets its name.">Gulab Bagh & Zoo</li>
+                    <li title="Sukhadia Circle lies to the north of Udaipur. It comprises a small pond that also houses a 21 foot tall, three-tiered marble fountain. Decorated with beautifully carved motifs, the fountain looks spectacular at night when it is lit up. The fountain is surrounded by gardens, creating a perfect oasis in a city bustling with tourists.">Sukhadiya Circle</li>
+                    <li title="Dedicated to the study of folk art, culture, songs and festivals of Rajasthan, Gujrat and Madhya Pradesh, Bharatiya Lok Kala Mandal is a cultural institution in Udaipur. Besides propagating folk culture, it also houses a museum that exhibits various artefacts of Rajasthani culture.">Bhartiya Lok Kala Mandal</li>
+                    <li title="Bagore-ki-Haveli is located by Lake Pichola, at Gangaur Ghat. Amar Chand Badwa, the Prime Minister of Mewar, built it in the 18th century. The massive palace has over a hundred rooms that display costumes and modern art. The glass and mirrors in the interiors are structured in classical haveli style.">Bagore Ki Haweli</li>
+                    <li title="Situated 7 kms west of Udaipur near Lake Fateh Sagar is the Centre's Shilpgram - the Rural Arts and Crafts Complex. Spread over 70 acres, and surrounded by the Aravallis, the Rural Arts and Crafts Complex has been conceived as a living museum to depict the lifestyles of the folk and tribal people of the west zone.">Shilpgram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>HOW TO REACH HERE</h3>
+                    <hr />
+                    <img class='vehicle' src='images/plane.png' />
+                    <p>
+                        Dabok Airport, also known as Maharana Pratap Airport is the closest at about 25 km northeast of the city centre. There are daily flights from Delhi and Mumbai on Jet Airways, Air India and SpiceJet.
+                    </p><hr />
+                    <img class='vehicle' src='images/car.png' />
+                    <p>
+                        Udaipur is easily accessible by road from every major destination in India, including Chittorgarh, Ahmedabad, Jodhpur, Ajmer, Sawai Madhopur / Ranthambore, Jaipur, Bikaner, Agra, Delhi, Mumbai and Khajuraho.
+                    </p><hr /> 
+                    <img class='vehicle' src='images/train.png' />
+                    <p>
+                        Udaipur is connected by rail to several major cities in India including Chittorgarh, Ahmedabad, Ajmer, Sawai Madhopur, Jaipur, Agra, Delhi, Mumbai and Khajuraho.
+                    </p><hr />
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <h3>Support</h3>
+                    <hr />
+                    <a href="#"><img class="social" src="images/facebook.png" /></a>
+                    <a href="#"><img class="social" src="images/insta.png" /></a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
